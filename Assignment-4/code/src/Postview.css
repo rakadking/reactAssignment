@@ -9,7 +9,7 @@ body {
 } 
 .site-container{
   z-index: -2;
-  top: 12vh;
+  top: 100px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -20,51 +20,59 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 50vw;
+  width: 50%;
+  height: auto;
   border: 1px solid black;
   border-radius: 5px;
   margin-top: 30px;
+  
 }
 .name-location-option{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 5vw;
-  width: 50vw;
+  width: 96%;
   /* border: 1px solid black; */
+  padding: 1em;
   margin: 0;
   
 }
-.name-location{
-  margin-left: 5px;
+
+.name-location h4, p{
+  padding: 0;
+  margin: 0;
+  
 }
-.name-location h4{
-  margin-bottom: 0;
-}
-.post-option{
-  width: 5vw;
-  height: 2vh;
-  margin-right: 5px;
-}
+
+
 .post-image{
-  height: 60vh;
+  max-height: 400px;
   width: 100%;
-  /* border: 1px solid black; */
+  
 }
 
 .image-footer{
   display: flex;
-  height: 5vh;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  /* border: 1px solid black; */
+  
 }
 .post-article{
+  width: 98%;
+  text-align: left;
   margin-top: 0;
+  padding-left: 1em;
+  
 }
 .likebutton, .sentbutton{
  height: 20px;
  width: 20px;
  margin: 5px;
+}
+.likes-count{
+  width: 98%;
+  margin: 0;
+  padding: 0, 2em, 0, 2em;
+  
 }

@@ -7,13 +7,15 @@
     "PostImage":"https://images.unsplash.com/photo-1644667621462-4938986c3a41?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60",
     "date": "12-12-2022"
     },
+
     {"name":"Neeraj",
     "location":"Pune",
-    "likes": 30,
+    "likes": 89,
     "description": "Beautiful View",
     "PostImage": "https://images.unsplash.com/photo-1644577584467-6079b74bf232?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60",
     "date": "12-12-2022"
     },
+
     {"name":"Rahul",
     "location":"Hyderabad",
     "likes":30,
@@ -21,6 +23,8 @@
     "PostImage": "https://images.unsplash.com/photo-1644671148678-fcba94981f4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60",
     "date": "12-12-2022"
     }
+    
+    
     ]
 }
 
