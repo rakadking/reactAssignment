@@ -2,14 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Postview from './Postview';
+import Header from './components/header';
 import reportWebVitals from './reportWebVitals';
-
-
-
-
 
 ReactDOM.render(
   <React.StrictMode>
+    <Header />
     <Postview />
   </React.StrictMode>,
   document.getElementById('root')

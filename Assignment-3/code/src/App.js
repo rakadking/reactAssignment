@@ -34,7 +34,7 @@ function App() {
   
         <div className='customer-info'>
             <div className="appointment">
-              <label>Appointment</label><p>{customer.Appointment}</p>
+              <label>Appointment on</label><p>{customer.Appointment}</p>
             </div>
             <div className="email">
               <label>Email:</label><p>{customer.email}</p>
